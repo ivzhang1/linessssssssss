@@ -69,10 +69,7 @@ for i in range(0,1000,100):
     draw_line( 0, 500-i, (i-random.randrange(100))*0.5 , 500, screen, color)
 
 
-
-
-
-# display(screen)
-# save_extension(screen, 'img.png')
+display(screen)
+save_extension(screen, 'img.png')
 # p = Popen( ['open', "img.png"], stdin=PIPE, stdout = PIPE )
 # p.communicate()
